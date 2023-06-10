@@ -1,0 +1,7 @@
+The annotation task that we are considering is labeling recipes with skill levels. Each recipe will be rated as one of the following levels: novice, intermediate, or expert. In order to assign each recipe to a level, we will consider factors such as the number of ingredients, the types of techniques used, total preparation time, as well as the likelihood of a mistake. These are only preliminary guidelines to what will be considered when assigning labels, as there are likely other factors that affect the difficulty level of a recipe. 
+
+We are sourcing our data from Kaggle. The link to the original dataset is attached here: https://www.kaggle.com/datasets/paultimothymooney/recipenlg?resource=download
+
+The license of the dataset states that it is available for use under non-commercial purposes, meaning that it is not private, and not under copyright. Therefore, as we are using the dataset for academic purposes, this dataset is acceptable for this annotation project. 
+
+From this larger dataset, we will run a simple random sample in order to source our 500 documents, which we will annotate. Afterwards, we will use this data to train a model to predict the difficulty level of a recipe. 
